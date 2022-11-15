@@ -14,7 +14,7 @@ como usar o seu tempo.
 
 Podem cair questões do tipo a seguir:
 
-1. Linguagem de máquina: 1. https://insper.github.io/bits-e-proc/commum-content/exercicios/Linguagem_de_maquina.pdf
+1. Linguagem de máquina: https://insper.github.io/bits-e-proc/commum-content/exercicios/Linguagem_de_maquina.pdf
 1. Pilha VM: https://docs.google.com/spreadsheets/d/1dywPIHgpUztDtpqzuEuGzAuTlcK9ryVUTp9-b84stJ4/edit?usp=sharing
 1. Como funciona o acesso ao LCD ou LED na linguagem VM?
 
@@ -114,9 +114,8 @@ A tradução do comando `swap` de `vm` para `nasm` deve ser feito no `Code.py`
 Esta nova instrução VM deve fazer o valor do topo da pilha, como no exemplo a seguir;
 
 ``` text
-                          27
-       14         SP-->   14
-       12                 12
+       14                 27
+       12          SP --> 12
        01                 01
  SP-->              
              add3
